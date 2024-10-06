@@ -33,19 +33,19 @@ export default function GlassPortfolio() {
                 </div>
               </div>
               <div className="flex space-x-2">
-                <a href='https://www.linkedin.com/in/xmagee/' target='_blank'>
+                <a href='https://www.linkedin.com/in/xmagee/' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
                     <Linkedin className="h-4 w-4" />
                   </Button>
                 </a>
 
-                <a href='https://www.github.com/xmagee/' target='_blank'>
+                <a href='https://www.github.com/xmagee/' target='_blank' rel="noreferrer"> 
                   <Button className="bg-white/20 hover:bg-white/30">
                     <Github className="h-4 w-4" />
                   </Button>
                 </a>
 
-                <a href='https://x.com/lostNotForgottn' target='_blank'>
+                <a href='https://x.com/lostNotForgottn' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
                     <Twitter className="h-4 w-4" />
                   </Button>
@@ -129,7 +129,7 @@ export default function GlassPortfolio() {
                   <Card key={index} className="bg-white/10 backdrop-blur-sm">
                     <CardContent>
                       <h3 className="font-semibold text-white">
-                        <a href={project.projectLink} target='_blank'>{project.title}</a>
+                        <a href={project.projectLink} target='_blank' rel="noreferrer">{project.title}</a>
                       </h3>
                       <p className="text-sm text-white/80 mt-1">{project.description}</p>
                       <div className="flex flex-wrap gap-2 mt-2">
