@@ -29,7 +29,7 @@ export default function GlassPortfolio() {
                 />
                 <div className="ml-4">
                   <h1 className="text-2xl font-bold text-white">Alexander Magee</h1>
-                  <p className="text-xl text-white/80">Senior Software Engineer</p>
+                  <p className="text-xl text-white/80">Software Engineer</p>
                 </div>
               </div>
               <div className="flex space-x-2">
