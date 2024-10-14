@@ -68,20 +68,6 @@ export default function GlassPortfolio() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-xl font-semibold text-white mb-2">Skills</h2>
-              <div className="flex flex-wrap gap-2">
-                {['React', 'Angular', 'JS/TS', 'Go', 'C#', 'Ollama'].map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-3 py-1 bg-white/20 rounded-full text-sm text-white font-medium"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </section>
-
-            <section className="mb-8">
               <h2 className="text-xl font-semibold text-white mb-2">Experience</h2>
               <div className="space-y-4">
                 {[
@@ -116,15 +102,15 @@ export default function GlassPortfolio() {
                   {
                     title: "Threads of Tech: Fashion-Tech Jobboard",
                     projectLink: "https://jobs.threadsoftech.com",
-                    description: "A job board featuring jobs in the fashion-tech space.",
+                    description: "I Co-created a job board for the Fashion/Tech startup known as Threads of Tech (based in NYC). Organically grew from 0 to 600+ monthly users immediately following launch!.",
                     technologies: ["React", "Next.JS", "Node.js", "Firebase"],
                   },
                   {
-                    title: "Synka! [WIP]",
-                    projectLink: "#",
-                    description: "An open-source multi-platform cloud storage desktop sync application.",
-                    technologies: ["Go", "SQLite"],
-                  },
+                    title: "Ratter",
+                    projectLink: "https://apps.apple.com/us/app/ratter/id6736864015",
+                    description: "An IOS app that allows users to report rat sightings in their area, shows sightings reported by other users with map pins. Soon: report forwarding to NYC 311, to assist the Rat Task Force.",
+                    technologies: ["Swift", "Firebase"],
+                  }
                 ].map((project, index) => (
                   <Card key={index} className="bg-white/10 backdrop-blur-sm">
                     <CardContent>
@@ -141,6 +127,20 @@ export default function GlassPortfolio() {
                       </div>
                     </CardContent>
                   </Card>
+                ))}
+              </div>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-white mb-2">Skills</h2>
+              <div className="flex flex-wrap gap-2">
+                {['React', 'Angular', 'JS/TS', 'Swift', 'Go', 'C#', 'Ollama'].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1 bg-white/20 rounded-full text-sm text-white font-medium"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </section>
