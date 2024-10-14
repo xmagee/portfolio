@@ -86,16 +86,16 @@ export default function GlassPortfolio() {
               <div className="space-y-4">
                 {[
                   {
-                    title: "Software Engineer",
+                    title: "Software Engineer II",
                     company: "Seneca Resources",
                     period: "2022 - Present",
-                    description: "Spearheaded the creation and design of a new app/migration of a mobile app used company-wide for natural gas wellsite data collection.",
+                    description: "Full stack engineer focused on creating and maintaining web and mobile projects assisting in the process of responsible fracking/extraction of natural gas.",
                   },
                   {
                     title: "Software Engineer",
                     company: "American Refining Group",
                     period: "2019 - 2022",
-                    description: "Lead design & development of a new oil well lease document generation webapp that dramatically decreased time spent by users manually working.",
+                    description: "Individual contributor, lead design and development for an app that automates the generation and renewal of oil well lease agreement documents.",
                   },
                 ].map((job, index) => (
                   <Card key={index} className="bg-white/10 backdrop-blur-sm">
