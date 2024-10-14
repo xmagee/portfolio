@@ -16,7 +16,7 @@ const CardContent = ({ children, className, ...props }) => (
 
 export default function GlassPortfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 to-sky-400">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 to-sky-600">
       <div className="container mx-auto px-4 py-8">
         <Card className="backdrop-blur-lg bg-white/30 shadow-xl rounded-xl overflow-hidden">
           <CardContent className="p-6">
