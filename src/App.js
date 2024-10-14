@@ -62,8 +62,9 @@ export default function GlassPortfolio() {
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-white mb-2">About Me</h2>
               <p className="text-white/80">
-                I'm a creative engineer who loves to solve problems! I have over five years of professional
-                experience creating and supporting code from the back-end to the front-end and everything in-between.
+                I'm a creative engineer who loves to solve problems! I have over five years of professional experience creating and
+                supporting code from the back-end to the front-end and everything in-between. When I’m not typing my days away
+                crafting software I'm typically deep in an exciting book or playing my guitar.
               </p>
             </section>
 
