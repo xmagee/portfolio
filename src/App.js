@@ -16,7 +16,7 @@ const CardContent = ({ children, className, ...props }) => (
 
 export default function GlassPortfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 to-sky-400">
       <div className="container mx-auto px-4 py-8">
         <Card className="backdrop-blur-lg bg-white/30 shadow-xl rounded-xl overflow-hidden">
           <CardContent className="p-6">
@@ -39,7 +39,7 @@ export default function GlassPortfolio() {
                   </Button>
                 </a>
 
-                <a href='https://www.github.com/xmagee/' target='_blank' rel="noreferrer"> 
+                <a href='https://www.github.com/xmagee/' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
                     <Github className="h-4 w-4" />
                   </Button>
