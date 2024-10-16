@@ -35,25 +35,25 @@ export default function GlassPortfolio() {
               <div className="flex space-x-2">
                 <a href='https://www.linkedin.com/in/xmagee/' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
-                    <Linkedin className="h-4 w-4" />
+                    <Linkedin className="h-4 w-4 text-white" />
                   </Button>
                 </a>
 
                 <a href='https://www.github.com/xmagee/' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
-                    <Github className="h-4 w-4" />
+                    <Github className="h-4 w-4 text-white" />
                   </Button>
                 </a>
 
                 <a href='https://x.com/lostNotForgottn' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
-                    <Twitter className="h-4 w-4" />
+                    <Twitter className="h-4 w-4 text-white" />
                   </Button>
                 </a>
 
                 <a href='mailto:alex@magee.us'>
                   <Button className="bg-white/20 hover:bg-white/30">
-                    <Mail className="h-4 w-4" />
+                    <Mail className="h-4 w-4 text-white" />
                   </Button>
                 </a>
               </div>
