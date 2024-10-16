@@ -96,7 +96,7 @@ export default function GlassPortfolio() {
               </div>
             </section>
 
-            <section>
+            <section className="mb-8">
               <h2 className="text-xl font-semibold text-white mb-2">Projects</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -132,7 +132,7 @@ export default function GlassPortfolio() {
               </div>
             </section>
 
-            <section className="mb-8">
+            <section>
               <h2 className="text-xl font-semibold text-white mb-2">Skills</h2>
               <div className="flex flex-wrap gap-2">
                 {['React', 'Angular', 'JS/TS', 'Swift', 'Go', 'C#', 'Ollama'].map((skill) => (
