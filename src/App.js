@@ -18,7 +18,7 @@ export default function GlassPortfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 to-sky-600">
       <div className="container mx-auto px-4 py-8">
-        <Card className="backdrop-blur-lg bg-white/30 shadow-xl rounded-xl overflow-hidden">
+        <Card className="backdrop-blur-lg bg-white/10 shadow-xl rounded-xl overflow-hidden">
           <CardContent className="p-6">
             <header className="flex flex-col md:flex-row items-center justify-between mb-8">
               <div className="flex items-center mb-4 md:mb-0">
