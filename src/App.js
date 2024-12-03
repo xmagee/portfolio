@@ -132,10 +132,32 @@ export default function GlassPortfolio() {
               </div>
             </section>
 
+            <section className="mb-8">
+              <h2 className="text-xl font-semibold text-white mb-2">Education</h2>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: "Bachelors of Science",
+                    company: "University of Pittsburgh",
+                    period: "2016 - 2020",
+                    description: "Web dev, Esports club; President, IT Club.",
+                  },
+                ].map((job, index) => (
+                  <Card key={index} className="bg-white/10 backdrop-blur-sm">
+                    <CardContent>
+                      <h3 className="font-semibold text-white">{job.title}</h3>
+                      <p className="text-sm text-white/70">{job.company} | {job.period}</p>
+                      <p className="mt-2 text-white/80">{job.description}</p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </section>
+
             <section>
               <h2 className="text-xl font-semibold text-white mb-2">Skills</h2>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Angular', 'JS/TS', 'Swift', 'Go', 'C#', 'Ollama'].map((skill) => (
+                {['React', 'Angular', 'JS/TS', 'Swift', 'Go', 'C#', 'React Native'].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-white/20 rounded-full text-sm text-white font-medium"
