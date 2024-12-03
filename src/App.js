@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, Book } from "lucide-react"
 
 // Placeholder components to replace shadcn/ui
 const Button = ({ children, className, ...props }) => (
@@ -48,6 +48,12 @@ export default function GlassPortfolio() {
                 <a href='https://x.com/lostNotForgottn' target='_blank' rel="noreferrer">
                   <Button className="bg-white/20 hover:bg-white/30">
                     <Twitter className="h-4 w-4 text-white" />
+                  </Button>
+                </a>
+
+                <a href='https://www.goodreads.com/user/show/179757687-alexander' target='_blank' rel="noreferrer">
+                  <Button className="bg-white/20 hover:bg-white/30">
+                    <Book className="h-4 w-4 text-white" />
                   </Button>
                 </a>
 
