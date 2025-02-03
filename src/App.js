@@ -76,7 +76,7 @@ export default function GlassPortfolio() {
                     title: "Software Engineer",
                     company: "NeuroFlow",
                     period: "2024 - Present",
-                    description: "Engineering and maintaining large-scale projects used to deliver behavorial health questionaires to tens of thousands of users across the country.",
+                    description: "Engineering and maintaining large-scale projects used to deliver behavioral health questionnaires to tens of thousands of users across the country.",
                   },
                   {
                     title: "Software Engineer",
