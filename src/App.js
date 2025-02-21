@@ -1,7 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Book } from "lucide-react"
 
-// Placeholder components to replace shadcn/ui
 const Button = ({ children, className, ...props }) => (
   <button className={`px-3 py-2 rounded ${className}`} {...props}>{children}</button>
 );
@@ -28,7 +27,7 @@ export default function GlassPortfolio() {
                   className="w-24 h-24 rounded-full border-4 border-white shadow-lg"
                 />
                 <div className="ml-4">
-                  <h1 className="text-2xl font-bold text-white">Alexander Magee</h1>
+                  <h1 className="text-2xl font-bold text-white">Alex Magee</h1>
                   <p className="text-xl text-white/80">Software Engineer</p>
                 </div>
               </div>
