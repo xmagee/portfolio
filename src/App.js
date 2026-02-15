@@ -101,42 +101,6 @@ export default function GlassPortfolio() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-xl font-semibold text-white mb-2">Projects</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {[
-                  {
-                    title: "Threads of Tech: Fashion-Tech Jobboard",
-                    projectLink: "https://jobs.threadsoftech.com",
-                    description: "I Co-created a job board for the Fashion/Tech startup known as Threads of Tech (based in NYC). Organically grew from 0 to 600+ monthly users immediately following launch!.",
-                    technologies: ["React", "Next.JS", "Node.js", "Firebase"],
-                  },
-                  {
-                    title: "Ratter",
-                    projectLink: "https://apps.apple.com/us/app/ratter/id6736864015",
-                    description: "An IOS app that allows users to report rat sightings in their area, shows sightings reported by other users with map pins. Soon: report forwarding to NYC 311, to assist the Rat Task Force.",
-                    technologies: ["Swift", "Firebase"],
-                  }
-                ].map((project, index) => (
-                  <Card key={index} className="bg-white/10 backdrop-blur-sm">
-                    <CardContent>
-                      <h3 className="font-semibold text-white">
-                        <a href={project.projectLink} target='_blank' rel="noreferrer">{project.title}</a>
-                      </h3>
-                      <p className="text-sm text-white/80 mt-1">{project.description}</p>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {project.technologies.map((tech) => (
-                          <span key={tech} className="px-2 py-1 bg-white/20 rounded-full text-xs text-white">
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </section>
-
-            <section className="mb-8">
               <h2 className="text-xl font-semibold text-white mb-2">Education</h2>
               <div className="space-y-4">
                 {[
